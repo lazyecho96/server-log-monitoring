@@ -12,3 +12,21 @@ to run the file use this command
 ./monitoring
 
 ```
+
+Following packages should be installed in order to make it work 
+
+```
+iptraf
+ifconfig
+netstat
+cmping
+bmon
+speedometer
+dstat
+iotop
+atop
+ioping
+
+
+
+```
