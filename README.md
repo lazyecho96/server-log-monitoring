@@ -3,4 +3,5 @@ The task of administering systems/servers is not an easy task for user. Administ
 
 
 to the file use
-'''gcc finalminor1.c -o finalminor `pkg-config --cflags --libs gtk+-3.0`'''
+
+''' gcc finalminor1.c -o finalminor `pkg-config --cflags --libs gtk+-3.0` '''
