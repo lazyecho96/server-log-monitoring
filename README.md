@@ -5,6 +5,6 @@ The task of administering systems/servers is not an easy task for user. Administ
 to run the file use the command 
 
 ```
-gcc finalminor1.c -o finalminor `pkg-config --cflags --libs gtk+-3.0`
+gcc monitoring.c -o monitoring `pkg-config --cflags --libs gtk+-3.0`
 
 ```
