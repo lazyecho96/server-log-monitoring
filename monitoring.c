@@ -36,7 +36,7 @@ enum {
     if (event->keyval == 'a')
         //callback(button, data);
 	{
-         while(system("sudo iptraf")) 
+         while(system("sudo iptraf-ng")) 
 		{
  		int ret = system("./a.out");
     		if (WIFSIGNALED(ret) && (WTERMSIG(ret) == SIGINT || WTERMSIG(ret) == SIGQUIT))
