@@ -7,4 +7,6 @@ to run the file use the command
 ```
 gcc monitoring.c -o monitoring `pkg-config --cflags --libs gtk+-3.0`
 
+./monitoring
+
 ```
